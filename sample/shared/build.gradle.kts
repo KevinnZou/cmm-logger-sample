@@ -28,6 +28,7 @@ kotlin {
                 implementation(compose.material)
                 @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
                 implementation(compose.components.resources)
+                implementation("co.touchlab:kermit:2.0.0-RC5")
                 api(project(":lib"))
             }
         }
